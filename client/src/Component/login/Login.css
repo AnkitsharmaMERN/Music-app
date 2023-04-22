@@ -1,0 +1,102 @@
+.LoginContainer{
+    /* border: 1px solid black; */
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 85%;
+    height: 100%;
+    background-color: rgb(110, 103, 103);
+}
+.inputfield{
+    margin: 17% 0 0 0;
+    width: 48%;
+    height: 50px;
+}
+
+.heading{
+    text-align: center;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inputfield input{
+    border: none;
+    border-radius: 20px;
+    background-color: lightgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 2% 2% 10%;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+
+}
+.link{
+    text-decoration: none;
+    margin: 3% 2% 0 10%;
+}
+.forgetlink {
+    float: right;
+    margin-right: 10%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signuplink {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loginbutton {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(77, 155, 77);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 3% 2% 0 10%;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+}
+.ImageContainer{
+    margin: 15% 0 0 0;
+    width: 50%;
+    height: 50%;    
+}
+
+.loginpic {
+    /* border: 1px solid black; */
+    margin: 10px 10px 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 930px) {
+    .LoginContainer{
+        /* border: 1px solid black; */
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 90%;
+        height: 100%;
+        background-color: rgb(110, 103, 103);
+    }  
+}
+@media screen and (max-width: 730px) {
+    .LoginContainer{
+        /* border: 1px solid black; */
+        flex-direction: column;
+        left: 100px;
+        width: 86%;
+    }  
+    .inputfield{
+        margin: 17% 0 0 10%;
+        width: 80%;
+        height: 70px;
+    }
+    .ImageContainer{
+        margin: 370px 0 0 10%;
+        width: 80%;
+        height: 40%;    
+    }
+}

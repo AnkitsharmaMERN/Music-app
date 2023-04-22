@@ -1,0 +1,120 @@
+.Mediaplayer {
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+}
+
+.Mediabuttonsection {
+    position: relative;
+    margin: 1%;
+    /* border: 1px solid black; */
+}
+
+.playpuse {
+    /* border: 1px solid black; */
+    color: white;
+    margin: auto;
+    width: 50%;
+
+}
+
+.playpuse button {
+    border: none;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    font-size: 25px;
+    margin:0 0 0 12%;
+}
+
+.playpuse i :hover {
+    /* font-size: 25px; */
+    /* margin: 8%; */
+    color: blue;
+}
+
+.Mediabuttonsection span {
+    display: flex;
+}
+
+.Mediabuttonsection span p {
+    color: white;
+    margin: 15px 15px;
+}
+
+.Mediabuttonsection span input {
+    width: 85%;
+    margin: 10px 5%;
+}
+.rangebar{
+--seek-before-width: 0%;
+}
+@media screen and (max-width:1120px) {
+    .playpuse {
+        /* border: 1px solid black; */
+        color: white;
+        margin: auto;
+        width: 50%;
+    
+    }
+    
+    .playpuse button {
+        border: none;
+        background-color: rgb(26, 25, 25);
+        color: white;
+        font-size: 25px;
+        margin:0 0 0 8%;
+    }   
+}
+@media screen and (max-width:785px) {
+    .playpuse {
+        /* border: 1px solid black; */
+        color: white;
+        margin: auto;
+        width: 60%;
+    
+    }
+    
+    .playpuse button {
+        border: none;
+        background-color: rgb(26, 25, 25);
+        color: white;
+        font-size: 25px;
+        margin:0 0 0 8%;
+    }   
+}
+@media screen and (max-width:590px) {
+    .playpuse {
+        /* border: 1px solid black; */
+        color: white;
+        margin: auto;
+        width: 80%;
+    
+    }
+    
+    .playpuse button {
+        border: none;
+        background-color: rgb(26, 25, 25);
+        color: white;
+        font-size: 25px;
+        margin:0 0 0 8%;
+    }   
+}
+@media screen and (max-width:450px) {
+    .playpuse {
+        /* border: 1px solid black; */
+        color: white;
+        margin: auto;
+        width: 95%;
+    
+    }
+    
+    .playpuse button {
+        border: none;
+        background-color: rgb(26, 25, 25);
+        color: white;
+        font-size: 25px;
+        margin:0 0 0 6%;
+    }   
+}

@@ -1,0 +1,43 @@
+.mainfavoriteContainer {
+    border: 1px solid black;
+    /* padding: 10px; */
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 85%;
+    height: 100%;
+    background-color: rgb(110, 103, 103);
+}
+
+
+.favListcontainer {
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 90%;
+    margin: 5px;
+    /* margin-top: 4%; */
+}
+.favListcontainer h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+.cardContainer {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 40%;
+    margin: 20px;
+   }
+
+   @media screen and (max-width:930px) {
+    .mainfavoriteContainer {
+        border: 1px solid black;
+        /* padding: 10px; */
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 90%;
+        height: 100%;
+        background-color: rgb(110, 103, 103);
+    }
+   }

@@ -1,0 +1,64 @@
+.MusicContainer {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 85%;
+    height: 100%;
+    background-color: rgb(49, 49, 49);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.Musicbanner {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+
+.Musicbanner img {
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 80%;
+    margin: 40px 20px 0 20px;
+}
+
+.Musicbanner span h2 {
+    color: white;
+    margin: 50px 20px 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Musicbanner span h3 {
+    color: white;
+    margin: 80px 20px 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Musicbanner span h1 {
+    margin: 20px 20px 0 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+}
+
+.Musicbanner span h4 {
+    color: white;
+    margin: 35px 20px 0 20px;
+    font-weight: bold;
+}
+.list{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    height: 45%;
+}
+.list img{
+    width: 100%;
+}
+

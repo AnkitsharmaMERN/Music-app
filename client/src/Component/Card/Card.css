@@ -1,0 +1,83 @@
+.CardContainer{
+    border: 1px solid white;
+    margin: 15px;
+    width: 270px;
+    height: 325px;
+    border-radius: 10px;
+}
+
+.CardContainer:hover{
+    background-color: rgb(17, 17, 17);
+    border-radius: 10px;
+}
+
+.CardContainer img{
+    border: 1px solid white;
+    /* margin: 10px; */
+    width: 100%;
+    height: 55%;
+    border-radius: 10px;
+    
+}
+
+.CardContainer span h3{
+    color: white;
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+}
+
+.CardContainer span p{
+ color: gray;
+ font-weight: bold;
+ margin: 10px 0 0 10px;
+}
+
+.Cardlink{
+    text-decoration: none;
+}
+
+@media screen and (max-width:1430px) {
+    .CardContainer{
+        border: 1px solid white;
+        margin: 15px;
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .CardContainer span h3{
+        color: white;
+        font-weight: bold;
+        margin: 5px 0 0 10px;
+    }
+    
+    .CardContainer span p{
+     color: gray;
+     font-weight: bold;
+     margin: 5px 0 0 10px;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .contentSection{
+        flex-direction: column;
+    }
+    .CardContainer{
+        border: 1px solid white;
+        margin: 15px;
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .CardContainer span h3{
+        color: white;
+        font-weight: bold;
+        margin: 5px 0 0 10px;
+    }
+    
+    .CardContainer span p{
+     color: gray;
+     font-weight: bold;
+     margin: 5px 0 0 10px;
+    }
+    
+}
